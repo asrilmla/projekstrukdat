@@ -1,0 +1,32 @@
+Upload FASTA
+(data/hepatitis_b.fasta)
+        │
+        ▼
+proyek.py
+        │
+        ▼
+Membaca Sequence
+        │
+        ▼
+Menghitung Frekuensi Nukleotida
+        │
+        ▼
+Menghitung GC Content
+        │
+        ▼
+Ranking Top 3 GC Content
+        │
+        ├──────────────┐
+        ▼              ▼
+CSV Export        Grafik
+(output/)         (grafik/)
+        │              │
+        └──────┬───────┘
+               ▼
+Frontend HTML
+(index.html,
+frekuensi.html,
+gc.html,
+top3.html,
+csv.html,
+grafik.html)
