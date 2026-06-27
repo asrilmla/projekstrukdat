@@ -1,0 +1,34 @@
+projekstrukdat/
+│
+├── index.html
+├── README.md
+│
+├── data/
+│   ├── hepatitis_b.fasta
+│
+├── grafik/
+│   ├── hasil.jpeg
+│
+├── html/
+│   ├── frekuensi.html
+│   ├── gc.html
+│   ├── top3.html
+│   ├── csv.html
+│   ├── grafik.html
+│
+├── py/
+│   ├── proyek.py
+│
+├── css/
+│   └── style.css
+│
+├── assets/
+│   └── header.jpeg
+│
+├── output/
+│   ├── hasil_gc.csv
+│   ├── hasil_frekuensi.csv
+│   └── hasil_top3.csv
+│
+└── laporan/
+    └── laporan_mini_project.pdf
