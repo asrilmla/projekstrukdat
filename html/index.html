@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mini Project Bioinformatika</title>
+
+<style>
+body{
+background:#1e241d;
+font-family:Courier New;
+color:#d6dfc7;
+display:flex;
+justify-content:center;
+padding:20px;
+}
+
+.container{
+width:900px;
+background:#465544;
+border-radius:10px;
+overflow:hidden;
+}
+
+/* HEADER IMAGE */
+.header-banner img{
+width:100%;
+height:180px;
+object-fit:cover;
+display:block;
+}
+
+/* NAVBAR */
+.navbar{
+background:#91a98b;
+padding:15px;
+display:flex;
+gap:10px;
+}
+
+.nav-item{
+text-decoration:none;
+background:#3f4b3d;
+color:white;
+padding:10px 20px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.nav-item:hover{
+background:#b8ff5c;
+color:black;
+box-shadow:
+0 0 10px #b8ff5c,
+0 0 20px #b8ff5c;
+}
+
+.nav-item.active{
+background:#b8ff5c;
+color:black;
+box-shadow:
+0 0 10px #b8ff5c,
+0 0 20px #b8ff5c,
+0 0 40px #b8ff5c;
+}
+
+/* CONTENT */
+.content{
+padding:25px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="header-banner">
+<img src="header.jpeg" alt="Header Bioinformatika">
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<a href="index.html" class="nav-item active">Home</a>
+<a href="frekuensi.html" class="nav-item">Frekuensi</a>
+<a href="gc.html" class="nav-item">GC Content</a>
+<a href="top3.html" class="nav-item">Top 3 GC</a>
+<a href="csv.html" class="nav-item">CSV</a>
+<a href="grafik.html" class="nav-item">Grafik</a>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+<h1>Mini Project Struktur Data Bioinformatika</h1>
+
+<p>
+Analisis FASTA, Frekuensi Nukleotida,
+GC Content, Visualisasi Data dan CSV.
+</p>
+
+<h2>Informasi Dataset</h2>
+
+<p>
+Organisme : Hepatitis B<br>
+Jumlah Sekuens : 6<br>
+Sumber : NCBI
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
