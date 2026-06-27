@@ -1,0 +1,2 @@
+Membuka file html di web browser:
+https://asrilmla.github.io/projekstrukdat/html/
